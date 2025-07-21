@@ -26,7 +26,7 @@ After Chocolatey is installed, install Docker Engine:
 `choco install docker-engine -y -Force`
 
 ### 3. Start Docker Engine Service
-
+![Docker Engine](./Images/DockerEngine.png)
 - Go to **Services**.
 - Find **Docker Engine**.
 - Click on **Start** to run the service.
@@ -43,8 +43,9 @@ After Chocolatey is installed, install Docker Engine:
 
 `Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All`
 
+![Windows Features](./Images/WindowsFeatures.png)
 
-If you don't have thiese features, you can run `containers.bat` and `hyperv.bat` scripts as administrators, and these features will be added to your system.
+If you don't have these features, you can run `containers.bat` and `hyperv.bat` scripts as administrators, and these features will be added to your system.
 
 ---
 
@@ -60,6 +61,8 @@ If you don't have thiese features, you can run `containers.bat` and `hyperv.bat`
 ### 2. Import the Module
 
 `Import-Module -Name BcContainerHelper`
+
+![BcContainerHelper](./Images/BcContainerHelper.png)
 
 
 Once the BcContainerHelper Module is imported you can run the script createbccontainer.ps1 
