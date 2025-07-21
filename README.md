@@ -18,6 +18,8 @@ Open PowerShell as **Administrator** and run:
 
 `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
 
+![Chocolatey](./Images/Chocolatey.png)
+
 
 ### 2. Install Docker Engine via Chocolatey
 
@@ -67,7 +69,7 @@ If you don't have these features, you can run `containers.bat` and `hyperv.bat` 
 
 Once the BcContainerHelper Module is imported you can run the script createbccontainer.ps1 
 
-For license I have added a Demo License File which you can download and provide the path for variable $licenseFile
+For license I have added a Demo License File(Cronus.bclicense) which you can download and provide the path for variable $licenseFile
 
 
 ---
